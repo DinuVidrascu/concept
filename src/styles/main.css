@@ -19,6 +19,7 @@
   --accent: linear-gradient(90deg,
       hsla(14, 80%, 50%, .3),
       hsla(14, 80%, 50%, 0));
+  --banner: hsl(0, 0%, 80%);
   ;
 
   /*========== Font and typography ==========*/
@@ -80,6 +81,7 @@ body.dark-theme {
   --text-color: hsl(0, 0%, 70%);
   --body-color: hsl(0, 0%, 8%);
   --container-color: hsl(0, 0%, 12%);
+  --banner: hsl(0, 0%, 25%);
 }
 
 /*========== 

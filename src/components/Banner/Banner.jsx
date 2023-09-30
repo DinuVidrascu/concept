@@ -22,8 +22,8 @@ function Banner() {
       <section className="banner section" id="banner">
          <div className="banner__container container grid">
 
-            <ul className="banner__list">
-               <li className="banner__item">
+            <div className="banner__list">
+               <div className="banner__item">
                   <img src={html} alt="" />
                   <img src={css} alt="" />
                   <img src={scss} alt="" />
@@ -35,8 +35,8 @@ function Banner() {
                   <img src={figma} alt="" />
                   <img src={git} alt="" />
                   <img src={github} alt="" />
-               </li>
-            </ul>
+               </div>
+            </div>
          </div>
       </section>
    )

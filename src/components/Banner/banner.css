@@ -7,7 +7,7 @@
 }
 
 .banner {
-   background: var(--white-color);
+   background: var(--banner);
 }
 
 .banner__list {

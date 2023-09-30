@@ -12,7 +12,7 @@ function Home() {
       <section className="home section" id="home">
          <div className="home__container container grid">
             <h1 className="home__name">
-               Rian Lot
+               Dinu Vidrascu
             </h1>
             <div className="home__perfil">
                <div className="home__image">

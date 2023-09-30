@@ -39,7 +39,7 @@ function Header() {
          <div className="nav container">
             <a href="/#" className="nav__logo">
                <span className="nav__logo-circle">D</span>
-               <span className="nav__logo-name">Rian Lot.</span>
+               <span className="nav__logo-name">Dinu.</span>
             </a>
             <div className="nav__menu" id="nav-menu">
                <span className="nav__title">Menu</span>

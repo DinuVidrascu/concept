@@ -1,0 +1,34 @@
+@import '../../styles/main.css';
+
+
+.section.banner {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.banner {
+   background: var(--white-color);
+}
+
+.banner__list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.banner__item {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   column-gap: 30px;
+}
+
+.banner__item img {
+   width: 45px;
+}
+
+.banner__item img:hover {
+   transform: scale(1.2);
+}

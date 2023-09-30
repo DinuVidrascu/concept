@@ -154,6 +154,8 @@
    background-color: hsl(0, 0%, 10%);
    padding-block: 1rem 2rem;
    text-align: center;
+   margin-top:-32px;
+   margin-bottom:-32px;
  }
  
  .contact__social-arrow {

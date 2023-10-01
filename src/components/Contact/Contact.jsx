@@ -1,5 +1,7 @@
 import React from 'react'
 import emailjs from "@emailjs/browser";
+import { useRef, useEffect, useState } from "react";
+
 
 import imgLine from '../../img/random-lines.svg'
 import imgArrow from '../../img/curved-arrow.svg';
@@ -8,6 +10,56 @@ import './contact.css';
 
 function Contact() {
 
+   const form = useRef();
+   const contactMessage = document.getElementById('contact-message')
+
+
+   const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs.sendForm('service_tfxe51b', 'template_c6juncd', form.current, 'dcRzeFvpcJ8dPCNai')
+
+         .then(() => {
+            // Show sent message
+            contactMessage.textContent = 'Message sent successfully ✅'
+
+            setTimeout(() => {
+               contactMessage.textContent = ''
+            }, 5000)
+
+            // Clear input fields
+            e.target.reset()
+
+         }, () => {
+            // Show error message
+            contactMessage.textContent = 'Message not sent (service error) ❌'
+         })
+   };
+
+
+   //    const contactForm = document.getElementById('contact-form'),
+   //       contactMessage = document.getElementById('contact-message')
+
+   // const sendEmail = (e) => {
+   //    e.preventDefault()
+
+   //    // serviceID - templateID - #form - ppublickey //
+   //    emailjs.sendForm('service_tfxe51b', 'template_c6juncd', '#contact-form', 'dcRzeFvpcJ8dPCNai')
+   // .then(() => {
+   //    // Show sent message
+   //    contactMessage.textContent = 'Message sent successfully ✅'
+
+   //    setTimeout(() => {
+   //       contactMessage.textContent = ''
+   //    }, 5000)
+
+   //    // Clear input fields
+   //    contactForm.reset()
+   // }, () => {
+   //    // Show error message
+   //    contactMessage.textContent = 'Message not sent (service error) ❌'
+   // })
+   // }
 
    return (
       <section className="contact section" id="contact">
@@ -32,7 +84,9 @@ function Contact() {
                   Send Me A Message
                </h2>
 
-               <form action="" className="contact__form" id="contact-form">
+               <form action="" className="contact__form" id="contact-form"
+                  ref={form}
+                  onSubmit={sendEmail}>
                   <div className="contact__group">
                      <div className="contact__box">
                         <input type="text" name="user_name" className="contact__input" id="name" required

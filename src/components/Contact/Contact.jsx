@@ -34,32 +34,8 @@ function Contact() {
             // Show error message
             contactMessage.textContent = 'Message not sent (service error) ❌'
          })
+      e.target.reset()
    };
-
-
-   //    const contactForm = document.getElementById('contact-form'),
-   //       contactMessage = document.getElementById('contact-message')
-
-   // const sendEmail = (e) => {
-   //    e.preventDefault()
-
-   //    // serviceID - templateID - #form - ppublickey //
-   //    emailjs.sendForm('service_tfxe51b', 'template_c6juncd', '#contact-form', 'dcRzeFvpcJ8dPCNai')
-   // .then(() => {
-   //    // Show sent message
-   //    contactMessage.textContent = 'Message sent successfully ✅'
-
-   //    setTimeout(() => {
-   //       contactMessage.textContent = ''
-   //    }, 5000)
-
-   //    // Clear input fields
-   //    contactForm.reset()
-   // }, () => {
-   //    // Show error message
-   //    contactMessage.textContent = 'Message not sent (service error) ❌'
-   // })
-   // }
 
    return (
       <section className="contact section" id="contact">

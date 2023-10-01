@@ -1,12 +1,9 @@
-import React from 'react'
-import emailjs from "@emailjs/browser";
-import { useRef, useEffect, useState } from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-
-import imgLine from '../../img/random-lines.svg'
 import imgArrow from '../../img/curved-arrow.svg';
 
-import './contact.css';
+import './contact.css'
 
 function Contact() {
 
@@ -59,7 +56,6 @@ function Contact() {
                <h2 className="contact__title">
                   Send Me A Message
                </h2>
-
                <form action="" className="contact__form" id="contact-form"
                   ref={form}
                   onSubmit={sendEmail}>

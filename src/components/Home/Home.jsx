@@ -1,6 +1,6 @@
 import React from 'react'
 
-import imgHero from '../../img/hero.jpg';
+import imgHero from '../../img/555.png';
 import imgLine from '../../img/random-lines.svg'
 import imgArrow from '../../img/curved-arrow.svg';
 

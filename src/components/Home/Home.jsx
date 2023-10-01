@@ -41,9 +41,7 @@ function Home() {
             </div>
             <div className="home__info">
                <p className="home__description">
-                  <b>Frontend Developer</b>, with knowledge in web
-                  development and design, I offer the best
-                  projects resulting in quality work.
+                  <b>Frontend Developer</b>, enthusiastic and dedicated  with a passion for creating captivating user experiences.
                </p>
 
                <a href="#about" className="home__scroll">

@@ -27,9 +27,8 @@ function About() {
             <div className="about__info">
                <p className="about__description">
                   Passionate about creating <b>Web Pages</b> with
-                  <b>UI/UX User Interface</b>, I have years of
-                  experience and many clients are happy with
-                  the projects carried out.
+                  <b> UI/UX User Interface</b>, I am committed to consistently delivering high-quality.
+                  I actively seek opportunities for continuous learning and development to constantly improve my abilities and knowledge.
                </p>
 
                <ul className="about__list">

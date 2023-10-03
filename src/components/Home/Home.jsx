@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fade } from "react-awesome-reveal";
 import imgHero from '../../img/555.png';
 import imgArrow from '../../img/curved-arrow.svg';
 

@@ -8,8 +8,8 @@ import ArrowUp from './helpers/ArrowTop/ArrowUp';
 import Banner from './components/Banner/Banner';
 import './styles/main.css'
 
-
 function App() {
+
   return (
     <div className="App">
       <Header />

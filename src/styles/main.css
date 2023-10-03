@@ -307,7 +307,7 @@ body.dark-theme {
   }
 
   .section {
-    padding-block: 7rem 2rem;
+    padding-block: 6rem 2rem;
   }
 
   .section__title-1::after,
@@ -356,21 +356,6 @@ body.dark-theme {
 
   .active-link {
     color: var(--title-color);
-  }
-
-  .nav__link-button {
-    background-color: var(--black-color);
-    color: var(--white-color);
-    padding: 1.1rem 1.5rem;
-    border-radius: 10px;
-  }
-
-  .nav__link-button:hover {
-    color: var(--white-color);
-  }
-
-  .nav__link-button::after {
-    background-color: transparent;
   }
 
   .change-theme {
@@ -498,12 +483,12 @@ body.dark-theme {
   }
 
   .about__image {
-    width: 350px;
+    width: 100%;
   }
 
-  .about__img {
-    border: 8px solid var(--white-color);
-  }
+  /* .about__img {
+    border: 3px solid var(--white-color);
+  } */
 
   .about__shadow {
     width: 240px;

@@ -20,15 +20,14 @@
  .about__image {
    width: 220px;
  }
- 
+
  .about__img {
    position: relative;
-   border: 4px solid var(--white-color);
+   /* border: 4px solid var(--white-color); */
    z-index: 1;
  }
  
  .about__shadow,
- .about__line,
  .about__box {
    position: absolute;
  }
@@ -49,14 +48,7 @@
    right: -2.8rem;
  }
  
- .about__line {
-   filter: invert(1);
-   right: -1.25rem;
-   top: 6rem;
-   width: 50px;
-   transition: filter .4s;
- }
- 
+
  .about__box {
    width: 40px;
    height: 40px;

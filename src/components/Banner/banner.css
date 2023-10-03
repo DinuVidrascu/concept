@@ -26,10 +26,10 @@
 }
 
 .banner__item img {
-   width: 45px;
-   transition: all .2s;
+   width: 3.5rem;
+   transition: all .2s ease;
 }
 
 .banner__item img:hover {
-   transform: scale(1.2);
+   transform: translateY(-10px);
 }

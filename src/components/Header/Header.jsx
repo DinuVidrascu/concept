@@ -25,14 +25,14 @@ function Header() {
       }
    }
 
-   const navLink = document.querySelectorAll('.nav__link')
-
-   const linkAction = () => {
-      const navMenu = document.getElementById('nav-menu')
+   function linkAction() {
+      const navMenu = document.getElementById('nav-menu'),
+         navLink = document.querySelectorAll('.nav__link')
       // When we click on each nav__link, we remove the show-menu close //
-      navMenu.classList.remove('show-menu')
+      navLink.forEach(n => n.addEventListener('click',
+         navMenu.classList.remove('show-menu')))
    }
-   navLink.forEach(n => n.addEventListener('click', linkAction))
+
 
    return (
       <header className="header" id="header">
@@ -41,7 +41,7 @@ function Header() {
                <span className="nav__logo-circle">D</span>
                <span className="nav__logo-name">Dinu.</span>
             </a>
-            <div className="nav__menu" id="nav-menu">
+            <div className="nav__menu" id="nav-menu" onClick={linkAction}>
                <span className="nav__title">Menu</span>
                <h3 className="nav__name">Dinu</h3>
                <ul className="nav__list">
@@ -59,7 +59,7 @@ function Header() {
                   </li>
 
                   <li className="nav__item">
-                     <a href="#contact" className="nav__link nav__link-button ">Contact Me</a>
+                     <a href="#contact" className="nav__link ">Contact Me</a>
                   </li>
                </ul>
 

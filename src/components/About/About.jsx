@@ -1,7 +1,6 @@
 import React from 'react'
 
-import imgAbout from '../../img/444.png'
-import imgLine from '../../img/random-lines.svg'
+import imgAbout from '../../img/pic.png'
 import cvPdf from '../../img/pdf/VIdrascu-Dinu_CV_Front-End.pdf'
 
 import './about.css'
@@ -20,7 +19,6 @@ function About() {
 
                   <div className="about__shadow"></div>
                   <div className="geometric-box"></div>
-                  <img src={imgLine} alt="image" className="about__line" />
                   <div className="about__box"></div>
                </div>
             </div>

@@ -1,7 +1,6 @@
 import React from 'react'
-
+import { Fade } from "react-awesome-reveal";
 import imgHero from '../../img/555.png';
-import imgLine from '../../img/random-lines.svg'
 import imgArrow from '../../img/curved-arrow.svg';
 
 
@@ -18,10 +17,7 @@ function Home() {
                <div className="home__image">
                   <img src={imgHero} alt="image" className="home__img" />
                   <div className="home__shadow"></div>
-
                   <img src={imgArrow} alt="" className="home__arrow" />
-                  <img src={imgLine} alt="" className="home__line" />
-
                   <div className="geometric-box"></div>
                </div>
 
@@ -41,14 +37,13 @@ function Home() {
             </div>
             <div className="home__info">
                <p className="home__description">
-                  <b>Frontend Developer</b>, enthusiastic and dedicated  with a passion for creating captivating user experiences.
+                  <b>Frontend Developer</b>,
+                  enthusiastic and dedicated  with a passion for creating captivating user experiences.
                </p>
-
                <a href="#about" className="home__scroll">
                   <div className="home__scroll-box">
                      <i className="ri-arrow-down-s-line"></i>
                   </div>
-
                   <span className="home__scroll-text">Scroll down</span>
                </a>
             </div>

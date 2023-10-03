@@ -29,12 +29,9 @@ function Banner() {
                   <img src={scss} alt="" />
                   <img src={js} alt="" />
                   <img src={react} alt="" />
-                  <img src={redux} alt="" />
                   <img src={bts} alt="" />
                   <img src={ps} alt="" />
                   <img src={figma} alt="" />
-                  <img src={git} alt="" />
-                  <img src={github} alt="" />
                </div>
             </div>
          </div>

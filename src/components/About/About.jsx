@@ -17,7 +17,7 @@ function About() {
                <div className="about__image">
                   <img src={imgAbout} alt="image" className="about__img" />
 
-                  <div className="about__shadow"></div>
+                  {/* <div className="about__shadow"></div> */}
                   <div className="geometric-box"></div>
                   <div className="about__box"></div>
                </div>

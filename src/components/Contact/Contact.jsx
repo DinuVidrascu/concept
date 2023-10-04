@@ -14,8 +14,8 @@ function Contact() {
    const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_tfxe51', 'template_c6juncd', form.current, 'dcRzeFvpcJ8dPCNai')
-                        //service_tfxe51b//
+      emailjs.sendForm('service_tfxe51b', 'template_c6juncd', form.current, 'dcRzeFvpcJ8dPCNa')
+                                                                           //dcRzeFvpcJ8dPCNai//
          .then(() => {
             // Show sent message
             contactMessage.textContent = 'Message sent successfully ✅'

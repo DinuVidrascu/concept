@@ -19,7 +19,7 @@ function About() {
 
                   {/* <div className="about__shadow"></div> */}
                   <div className="geometric-box"></div>
-                  <div className="about__box"></div>
+                  {/* <div className="about__box"></div> */}
                </div>
             </div>
             <div className="about__info">
@@ -31,8 +31,8 @@ function About() {
 
                <ul className="about__list">
                   <li className="about__item">
-                     <b>My Skills Are:</b> HTML, CSS, Scss, JavaScript,
-                     React, Redux, Git, GitHub, Vercel, Bootstrap, Photoshop &
+                     <b>My Skills Are:</b> Html, Css, Scss, JavaScript,
+                     React, Material-UI, Bootstrap, Git, GitHub, Vercel, Photoshop &
                      Figma.
                   </li>
                </ul>

@@ -15,7 +15,7 @@ function Contact() {
       e.preventDefault();
 
       emailjs.sendForm('service_tfxe51b', 'template_c6juncd', form.current, 'dcRzeFvpcJ8dPCNa')
-                                                                           //dcRzeFvpcJ8dPCNai//
+         //dcRzeFvpcJ8dPCNai//
          .then(() => {
             // Show sent message
             contactMessage.textContent = 'Message sent successfully ✅'
@@ -42,12 +42,12 @@ function Contact() {
                   <span>Contact Me.</span>
                </h2>
                <p className="contact__description-1">
-                  I will read all emails. Send me any
-                  message you want and I'll get back to you.
+                  I will read all the emails.
+                  Send me any message you want and I will reply.
                </p>
                <p className="contact__description-2">
-                  I need your <b>Name</b> and <b>Email Address</b>, but
-                  you won't receive anything other than your reply.
+                  To send an email, you need your <b>Name</b> and <b>Email Address</b>,
+                  and don't forget to write me a message.
                </p>
 
                <div className="geometric-box"></div>
@@ -98,7 +98,8 @@ function Contact() {
                <div className="contact__social-data">
                   <div>
                      <p className="contact__social-description-1">
-                        Does not send emails
+                        If the email was not sent,
+                        or you do not want to write the email
                      </p>
                      <p className="contact__social-description-2">
                         Write me on my social networks

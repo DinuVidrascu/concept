@@ -248,6 +248,8 @@ body.dark-theme {
   .contact__data .section__title-2 {
     transform: translateX(0);
   }
+
+
 }
 
 /* For medium devices */
@@ -299,7 +301,6 @@ body.dark-theme {
   .dark-theme .contact__social-arrow {
     filter: none;
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -492,12 +493,6 @@ body.dark-theme {
     top: 4.5rem;
   }
 
-  .about__line {
-    width: 80px;
-    right: -2rem;
-    top: 10rem;
-  }
-
   .about__box {
     width: 64px;
     height: 64px;
@@ -528,6 +523,7 @@ body.dark-theme {
 
   .about__list {
     margin-bottom: 5rem;
+    font-size: 1.25rem;
   }
 
   .about__buttons {

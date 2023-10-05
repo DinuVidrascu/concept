@@ -81,6 +81,7 @@
    list-style: square;
    color: var(--title-color);
    margin-bottom: 3rem;
+   font-size: 1.05rem;
  }
  
  .about__buttons {

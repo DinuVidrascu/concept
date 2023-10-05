@@ -19,7 +19,8 @@ function Projects() {
                      img={project.img}
                      gitHubLink={project.gitHubLink}
                      projectLink={project.projectLink}
-                     description={project.description} />
+                     description={project.description}
+                     skills={project.skills} />
                )
             })}
          </div>

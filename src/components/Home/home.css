@@ -22,6 +22,7 @@
   border: 1.5px solid var(--white-color);
   position: relative;
   z-index: 10;
+  border-radius: 5px;
 }
 
 .home__shadow {
@@ -29,10 +30,11 @@
   height: 100%;
   background-color: var(--container-color);
   position: absolute;
-  bottom: -.75rem;
-  right: -.75rem;
-  border: 4px solid var(--black-color);
+  bottom: -.65rem;
+  right: -.65rem;
+  border: 2px solid var(--black-color);
   z-index: 5;
+  border-radius: 5px;
   transition: background-color .4s;
 }
 
@@ -68,6 +70,7 @@
 .home__social-link {
   background-color: var(--black-color-light);
   color: var(--white-color);
+  border-radius: 5px;
   font-size: 1.25rem;
   padding: 6px;
   display: grid;
@@ -115,6 +118,7 @@
   font-size: 1rem;
   cursor: pointer;
   overflow: hidden;
+  border-radius: 5px;
   transition: background-color .4s;
 }
 

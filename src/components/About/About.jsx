@@ -1,6 +1,6 @@
 import React from 'react'
 
-import imgAbout from '../../img/pic.png'
+import imgAbout from '../../img/a.png'
 import cvPdf from '../../img/pdf/VIdrascu-Dinu_CV_Front-End.pdf'
 
 import './about.css'

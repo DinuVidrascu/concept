@@ -38,8 +38,8 @@ function Header() {
       <header className="header" id="header">
          <div className="nav container">
             <a href="/#" className="nav__logo">
-               <span className="nav__logo-circle">D</span>
-               <span className="nav__logo-name">Dinu.</span>
+               <span className="nav__logo-circle">dev</span>
+               <span className="nav__logo-name">.Dinu</span>
             </a>
             <div className="nav__menu" id="nav-menu" onClick={linkAction}>
                <span className="nav__title">Menu</span>

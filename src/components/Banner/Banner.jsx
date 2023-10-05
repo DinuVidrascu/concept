@@ -8,6 +8,7 @@ import js from '../../img/skils/javascript.svg'
 import ps from '../../img/skils/phs.svg'
 import figma from '../../img/skils/figma.svg'
 import bts from '../../img/skils/bts.svg'
+import mui from '../../img/skils/mui.svg'
 import git from '../../img/skils/git.svg'
 import github from '../../img/skils/github.svg'
 
@@ -26,9 +27,9 @@ function Banner() {
                <div className="banner__item">
                   <img src={html} alt="" />
                   <img src={css} alt="" />
-                  <img src={scss} alt="" />
                   <img src={js} alt="" />
                   <img src={react} alt="" />
+                  <img src={scss} alt="" />
                   <img src={bts} alt="" />
                   <img src={ps} alt="" />
                   <img src={figma} alt="" />

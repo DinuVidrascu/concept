@@ -3,7 +3,7 @@ import BtnGitHub from '../../helpers/BtnGitHub/BtnGitHub'
 
 import './projectcard.css'
 
-function ProjectCard({ title, img, gitHubLink, projectLink, description }) {
+function ProjectCard({ title, img, gitHubLink, projectLink, description, skills}) {
 
    return (
       <article className="projects__card">
@@ -14,7 +14,7 @@ function ProjectCard({ title, img, gitHubLink, projectLink, description }) {
             </a>
          </div>
          <div className="projects__content">
-            <h3 className="projects__subtitle">Web</h3>
+            <h3 className="projects__subtitle">{skills}</h3>
             <h2 className="projects__title">
                {title}
             </h2>

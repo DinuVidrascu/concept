@@ -106,13 +106,13 @@ function Contact() {
                   </div>
 
                   <div className="contact__social-links">
-                     <a href="#" target="_blank" className="contact__social-link">
+                     <a href="https://www.facebook.com/dinu.vidrascu.29" target="_blank" className="contact__social-link">
                         <i className="ri-facebook-circle-line"></i>
                      </a>
-                     <a href="#" target="_blank" className="contact__social-link">
+                     <a href="https://www.instagram.com/dinu.vidrascu/" target="_blank" className="contact__social-link">
                         <i className="ri-instagram-line"></i>
                      </a>
-                     <a href="#" target="_blank" className="contact__social-link">
+                     <a href="https://www.linkedin.com/in/dinu-vidrascu-a922b8226/" target="_blank" className="contact__social-link">
                         <i className="ri-linkedin-box-line"></i>
                      </a>
                   </div>

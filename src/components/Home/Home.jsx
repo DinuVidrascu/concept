@@ -21,15 +21,15 @@ function Home() {
                </div>
 
                <div className="home__social">
-                  <a href="https://www.instagram.com/" target="_blank" className="home__social-link">
+                  <a href="https://www.instagram.com/dinu.vidrascu/" target="_blank" className="home__social-link">
                      <i className="ri-instagram-line"></i>
                   </a>
 
-                  <a href="https://www.linkedin.com/" target="_blank" className="home__social-link">
+                  <a href="https://www.linkedin.com/in/dinu-vidrascu-a922b8226/" target="_blank" className="home__social-link">
                      <i className="ri-linkedin-box-line"></i>
                   </a>
 
-                  <a href="https://github.com/" target="_blank" className="home__social-link">
+                  <a href="https://github.com/DinuVidrascu" target="_blank" className="home__social-link">
                      <i className="ri-github-line"></i>
                   </a>
                </div>

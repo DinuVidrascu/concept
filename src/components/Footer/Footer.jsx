@@ -19,7 +19,7 @@ function Footer() {
             </ul>
 
             <span className="footer__copy">
-               &#169; Dino
+            Copyright &#169; 2023. All rights are reserved
             </span>
          </div>
       </footer>

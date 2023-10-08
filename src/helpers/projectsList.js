@@ -17,7 +17,7 @@ const projectsList = [
    {
       id: 2,
       title: 'Food service',
-      skills: 'JavaScript - Css - webpack',
+      skills: 'JavaScript - Css',
       img: project02,
       description: 'This web app helps you find and order food that fits your specific diet. Users can calculate the required calories with a calorie calculator.',
       gitHubLink:'https://github.com/DinuVidrascu/Food',

@@ -1,6 +1,5 @@
 import React from 'react'
 import imgHero from '../../img/555.png';
-import imgArrow from '../../img/curved-arrow.svg';
 
 
 import './home.css'
@@ -16,8 +15,6 @@ function Home() {
                <div className="home__image">
                   <img src={imgHero} alt="image" className="home__img" />
                   <div className="home__shadow"></div>
-                  <img src={imgArrow} alt="" className="home__arrow" />
-                  <div className="geometric-box"></div>
                </div>
 
                <div className="home__social">
@@ -36,7 +33,7 @@ function Home() {
             </div>
             <div className="home__info">
                <p className="home__description">
-                  <b>Frontend Developer</b>,
+                  <b>Front-End Developer</b>,
                   enthusiastic and dedicated  with a passion for creating captivating user experiences.
                </p>
                <a href="#about" className="home__scroll">

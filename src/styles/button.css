@@ -16,6 +16,17 @@
   transition: background-color .4s;
 }
 
+.contact__button {
+   background-color: var(--white-color);
+   color: var(--black-color);
+   cursor: pointer;
+   transition: all .4s
+}
+
+.contact__button:hover {
+  color: var(--white-color);
+}
+
 .button i {
   font-size: 1.25rem;
 }

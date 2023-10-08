@@ -111,7 +111,6 @@
    font-size: var(--h3-font-size);
    font-weight: var(--font-semi-bold);
    transition: color .3s;
-   text-transform: uppercase;
 }
 
 .nav__link::after {
@@ -126,7 +125,7 @@
 }
 
 .nav__link:hover {
-   color: var(--white-color);
+   color: var(---color);
 }
 
 .nav__link:hover::after {

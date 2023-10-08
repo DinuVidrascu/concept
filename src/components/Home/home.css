@@ -19,10 +19,9 @@
 }
 
 .home__img {
-  border: 1.5px solid var(--white-color);
+  border-bottom: 2px solid var(--title-color);
   position: relative;
   z-index: 10;
-  border-radius: 5px;
 }
 
 .home__shadow {
@@ -30,30 +29,10 @@
   height: 100%;
   background-color: var(--container-color);
   position: absolute;
-  bottom: -.65rem;
-  right: -.65rem;
-  border: 2px solid var(--black-color);
+  bottom: 0;
+  right: 0;
   z-index: 5;
-  border-radius: 5px;
   transition: background-color .4s;
-}
-
-.home__arrow {
-  position: absolute;
-  filter: invert(1);
-  width: 50px;
-  transition: filter .4s;
-}
-
-.home__arrow {
-  left: 40%;
-  bottom: -4rem;
-}
-
-.home__perfil .geometric-box {
-  top: 2.5rem;
-  left: -.7rem;
-  z-index: 10;
 }
 
 .home__social {

@@ -131,12 +131,7 @@
    resize: none;
    padding-top: 1rem;
  }
- 
- .contact__button {
-   background-color: var(--first-color);
-   cursor: pointer;
- }
- 
+  
  /* Opaque placeholder */
  .contact__input:focus::placeholder{
    opacity: 0;

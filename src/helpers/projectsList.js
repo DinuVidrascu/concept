@@ -50,8 +50,8 @@ const projectsList = [
       title: 'Interior Design Portfolio',
       skills: 'JS - CSS - 3D Scroll',
       description: 'This is a Portfolio created for an Interior Designer where his professional work is demonstrated',
-      gitHubLink: 'https://github.com/DinuVidrascu/pet-shop',
-      projectLink:'https://pet-shop-three-ashen.vercel.app/',
+      gitHubLink: '',
+      projectLink:'https://ch-interior-design.vercel.app/',
       img: project06,
    },
    {

@@ -3,7 +3,10 @@ import project01 from "./../img/projects/imgbig1.jpg";
 import project02 from "./../img/projects/imgbig2.jpg";
 import project03 from "./../img/projects/imgbig3.jpg";
 import project04 from "./../img/projects/imgbig5.jpg"
+import project06 from "./../img/projects/imgbig7.jpg"
+import project07 from "./../img/projects/imgbig6.jpg"
 import projectnew from "./../img/projects/one.jpg"
+
 
 const projectsList = [
    {
@@ -41,6 +44,24 @@ const projectsList = [
       gitHubLink: 'https://github.com/DinuVidrascu/concept_oneplus',
       projectLink:'https://dinuvidrascu.github.io/concept_oneplus/',
       img: project04,
+   },
+   {
+      id: 5,
+      title: 'Interior Design Portfolio',
+      skills: 'JS - CSS - 3D Scroll',
+      description: 'This is a Portfolio created for an Interior Designer where his professional work is demonstrated',
+      gitHubLink: 'https://github.com/DinuVidrascu/pet-shop',
+      projectLink:'https://pet-shop-three-ashen.vercel.app/',
+      img: project06,
+   },
+   {
+      id: 6,
+      title: 'Pet-Shop',
+      skills: 'React - CSS',
+      description: 'This is a web shop designed for selling food products for cats and dogs.',
+      gitHubLink: 'https://github.com/DinuVidrascu/pet-shop',
+      projectLink:'https://pet-shop-three-ashen.vercel.app/',
+      img: project07,
    },
    {
       id: 10,
